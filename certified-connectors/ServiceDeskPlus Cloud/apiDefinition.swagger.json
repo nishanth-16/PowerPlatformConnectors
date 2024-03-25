@@ -121,7 +121,7 @@
           }
         ],
         "summary": "Get Request List",
-        "description": "Get a list of requests from ServiceDesk Plus Cloud that meet the additional criteria given in the input_data parameter.",
+        "description": "Get a list of requests from ServiceDesk Plus Cloud that meets the additional criteria given in the input_data parameter",
         "operationId": "GetRequestList",
         "x-ms-openai-data": {
           "openai-enabled": true,
@@ -403,7 +403,7 @@
           }
         },
         "summary": "Get Request Detail",
-        "description": "Retrieve the request details using the request ID from ServiceDesk Plus Cloud.",
+        "description": "Retrieve request details using the request ID from ServiceDesk Plus Cloud",
         "operationId": "GetRequestDetail",
 		"x-ms-openai-data": {
           "openai-enabled": true,
@@ -717,7 +717,7 @@
           }
         },
         "summary": "Create Change",
-        "description": "Create new change in ServiceDesk Plus Cloud",
+        "description": "Create a new change in ServiceDesk Plus Cloud",
         "operationId": "CreateChange",
         "parameters": [
           {
@@ -973,7 +973,7 @@
           }
         },
         "summary": "Update Change",
-        "description": "Update an existing change in ServiceDesk Plus Cloud.",
+        "description": "Update an existing change in ServiceDesk Plus Cloud",
         "operationId": "UpdateChange",
         "parameters": [
           {
@@ -1338,7 +1338,7 @@
         },
         "operationId": "InvokeAPI",
         "summary": "Invoke API",
-        "description": "Make API calls in ServiceDesk Plus Cloud to perform an action",
+        "description": "Make API calls to perform an action in ServiceDesk Plus Cloud",
         "parameters": [
           {
             "name": "serviceDeskInstance",
